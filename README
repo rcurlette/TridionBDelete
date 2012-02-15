@@ -1,0 +1,14 @@
+Tridion bDelete
+=========================
+
+UnLocalizes all children and deletes item.  The inverse of the bCopy utility and handy to have in case you accidentally used bCopy and want to rollback.
+
+Works on:
+- Folders
+- Structure Groups
+- Pages
+- Components
+
+Does not work if:
+- Component is on page, in Component, or published
+- Page is published
